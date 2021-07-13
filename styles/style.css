@@ -115,9 +115,9 @@ body {
     color: #6C6C6C;
     text-align: justify;
 }
-/* ===================
+/* ============================
 ======Highlight Area Styling===== 
-====================*/
+================================*/
 #highlight_area {
     margin: 100px 0px;
 }
@@ -146,4 +146,19 @@ body {
     transform: scale(1.1);
     transition: transform 1s ease-in-out;
     cursor: pointer;
+}
+/* ===========================
+======Footer Area Styling===== 
+=============================*/
+#footer_area {
+    margin: 50px 0px;
+}
+.footer_area_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logo img {
+    width: 483.87px;
 }
