@@ -18,8 +18,10 @@ body {
 }
 .link_style {
     background: #E02C6D;
-    padding: 5px 15px;
     border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
 }
 .link_style:hover {
     background: linear-gradient(#9c88ff,#4cd137,#e1b12c);
