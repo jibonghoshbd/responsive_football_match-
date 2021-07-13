@@ -94,7 +94,7 @@ body {
     grid-row-gap: 20px; */
 }
 .single_player {
-    width: 270px;
+    width: 290px;
     height: 570px;
     box-shadow: 7px 7px 15px gray;
     padding: 20px;
@@ -114,4 +114,18 @@ body {
 .player_bio p {
     color: #6C6C6C;
     text-align: justify;
+}
+/* ===================
+======Highlight Area Styling===== 
+====================*/
+#highlight_area {
+    margin: 100px 0px;
+}
+.highlight_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.highlight_img img {
+    width: 567px;
+    border-radius: 5px;
 }
