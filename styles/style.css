@@ -1,7 +1,7 @@
 /* ===================
 ======google fonts===== 
 ====================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
 /* ===================
@@ -11,4 +11,42 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 1050px;
+    margin: auto;
+}
+.link_style {
+    background: #E02C6D;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+#header_area {
+    background: #2D25A0;
+    overflow: hidden;
+}
+
+/* ===================
+======Nav Area Styling===== 
+====================*/
+.nav_area_contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_area_contant ul {
+    list-style: none;
+}
+.nav_area_contant ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav_area_contant ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.nav_area_contant i {
+    margin-right: 10px;
+    font-size: 16px;
 }
