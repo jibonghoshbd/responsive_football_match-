@@ -125,7 +125,25 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.highlight_content h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.highlight_content p {
+    color: #6C6C6C;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.highlight_content i {
+    margin-left: 20px;
+}
 .highlight_img img {
     width: 567px;
     border-radius: 5px;
+    margin-left: 90px;
+}
+.highlight_img:hover img {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
 }
