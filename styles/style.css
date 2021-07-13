@@ -86,11 +86,18 @@ body {
 .player_wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    grid-gap: 25px;
+    /* grid-column-gap: 20px;
+    grid-row-gap: 20px; */
 }
 .single_player {
     width: 330px;
+    box-shadow: 10px 10px 20px gray;
+    padding: 20px;
+    border-radius: 7px;
 }
 .player_img img {
-    width: 300px;
-    height: 256px;
+    width: 100%;
+    border-radius: 5px;
 }
