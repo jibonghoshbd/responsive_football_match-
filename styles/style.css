@@ -101,3 +101,6 @@ body {
     width: 100%;
     border-radius: 5px;
 }
+.player_bio p {
+    color: #6C6C6C;
+}
