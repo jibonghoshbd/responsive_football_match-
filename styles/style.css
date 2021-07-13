@@ -21,6 +21,9 @@ body {
     padding: 5px 15px;
     border-radius: 5px;
 }
+.link_style:hover {
+    background: linear-gradient(#9c88ff,#4cd137,#e1b12c);
+}
 #header_area {
     background: #2D25A0;
     overflow: hidden;
