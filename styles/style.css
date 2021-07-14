@@ -199,4 +199,14 @@ aside.container {
     color: #000000;
     font-size: 18px;
 }
-
+/* ============================
+======Winners Area Styling===== 
+================================*/
+.winner_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.single_team img {
+    width: 250px;
+}
