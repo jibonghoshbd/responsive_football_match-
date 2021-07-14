@@ -162,3 +162,22 @@ body {
 .footer_logo img {
     width: 483.87px;
 }
+.social_area i {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    background: #969BAB;
+    color: #ddd;
+    padding: 7px;
+    border-radius: 100%;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+
+}
+.copyright p {
+    color: #000000;
+    font-size: 18px;
+}
+
