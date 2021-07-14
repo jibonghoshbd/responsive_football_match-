@@ -26,11 +26,6 @@ body {
 .link_style:hover {
     background: linear-gradient(#9c88ff,#4cd137,#e1b12c);
 }
-#header_area {
-    background: #2D25A0;
-    overflow: hidden;
-}
-
 /* ===================
 ======Nav Area Styling===== 
 ====================*/
@@ -66,6 +61,11 @@ body {
 /* ===================
 ======Header Contat Styling===== 
 ====================*/
+#header_area {
+    background: #2D25A0;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
 aside.container {
     margin-top: 110px;
 }
