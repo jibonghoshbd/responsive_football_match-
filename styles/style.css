@@ -202,11 +202,38 @@ aside.container {
 /* ============================
 ======Winners Area Styling===== 
 ================================*/
+#winner {
+    margin: 120px 0px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 7px;
+}
+#winner span {
+    color: #079992;
+}
+#winner h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 50px;
+}
 .winner_area {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
+}
+.single_team {
+    padding: 30px;
 }
 .single_team img {
     width: 250px;
+    border-radius: 7px;
+}
+.score p {
+    font-size: 24px;
+    font-weight: 700;
+}
+p.final {
+    text-align: center;
+    font-size: 30px;
+    color:lightskyblue;
 }
