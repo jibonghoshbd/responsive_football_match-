@@ -81,6 +81,10 @@ body {
 .header_img img {
     width: 556.01px;
 }
+.header_img:hover img {
+    transform: rotate(45deg);
+    transition: transform 1s ease-in-out;
+}
 
 /* ===================
 ======Player Area Styling===== 
