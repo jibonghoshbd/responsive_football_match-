@@ -34,6 +34,13 @@ body {
 /* ===================
 ======Nav Area Styling===== 
 ====================*/
+#nav_area {
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .nav_area_contant {
     display: flex;
     justify-content: space-between;
@@ -59,6 +66,9 @@ body {
 /* ===================
 ======Header Contat Styling===== 
 ====================*/
+aside.container {
+    margin-top: 110px;
+}
 .header_contant {
     display: flex;
     justify-content: space-between;
