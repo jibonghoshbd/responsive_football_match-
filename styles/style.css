@@ -243,6 +243,10 @@ p.final {
 ================================*/
 
 @media only screen and (max-width: 767px) {
+    /* nav area  */
+    .nav_area_contant {
+        flex-direction: column;
+    }
     /* header area  */
     .container {
         width: 100%;
@@ -258,20 +262,21 @@ p.final {
     .player_wrapper {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 50px;
-        align-items: center;
+        align-content: center;
     }
 
     /* highlight are  */
     .highlight_wrapper {
         flex-direction: column;
         align-items: center;
+        align-content: center;
     }
     .highlight_content {
         margin-bottom: 50px;
     }
     
     /* winners area  */
-    
+
     .winner_area {
         flex-direction: column;
         align-items: center;
