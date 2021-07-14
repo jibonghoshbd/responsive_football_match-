@@ -237,3 +237,44 @@ p.final {
     font-size: 30px;
     color:lightskyblue;
 }
+
+/* ============================
+===========Responsive========== 
+================================*/
+
+@media only screen and (max-width: 767px) {
+    /* header area  */
+    .container {
+        width: 100%;
+    }
+    .header_contant {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_img {
+        margin-top: 50px;
+    }
+    /* player area  */
+    .player_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        align-items: center;
+    }
+
+    /* highlight are  */
+    .highlight_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .highlight_content {
+        margin-bottom: 50px;
+    }
+    
+    /* winners area  */
+    
+    .winner_area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    }
