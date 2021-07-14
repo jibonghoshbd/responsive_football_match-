@@ -176,6 +176,11 @@ body {
     line-height: 20px;
 
 }
+.social_area i:hover {
+    background: #487eb0;
+    color: #fff;
+    cursor: pointer;
+}
 .copyright p {
     color: #000000;
     font-size: 18px;
